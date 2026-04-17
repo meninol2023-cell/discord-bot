@@ -1,3 +1,5 @@
+require("./keepAlive");
+
 const { Client, GatewayIntentBits } = require("discord.js");
 
 const client = new Client({
